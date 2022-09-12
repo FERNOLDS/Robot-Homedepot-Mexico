@@ -1,0 +1,67 @@
+{
+  "name": "Mi Robot Inmobiliario",
+  "description": "Este robot obtiene informacion sobre las propiedades que se ofrecen en una plataforma inmobiliaria ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Google.Apis": "[1.57.0]",
+    "Google.Apis.Auth": "[1.57.0]",
+    "Google.Apis.Drive.v3": "[1.55.0.2566]",
+    "Google.Apis.Gmail.v1": "[1.55.0.2510]",
+    "Google.Apis.PeopleService.v1": "[1.55.0.2567]",
+    "Google.Apis.Sheets.v4": "[1.57.0.2727]",
+    "GoogleSpreadsheet.Activities": "[1.0.7495.12930]",
+    "notepad2": "[4.2.25.3]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.GSuite.Activities": "[1.17.0-preview]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.UIAutomation.Activities": "[22.8.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e493a446-985a-42c1-890a-05f7be53890d",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
